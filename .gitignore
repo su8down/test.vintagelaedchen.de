@@ -1,0 +1,41 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+
+#Cache
+/var/cache/*
+/vendor/*
+/web/cache/*
+!/var/cache/.htaccess
+!/var/cache/clear_cache.sh
+/web/sitemap/*
+
+#Logs
+/var/log/*
+!/var/log/.htaccess
+
+# PhpStorm-Project
+/.idea/
+
+# User installed plugins
+/engine/Shopware/Plugins/Community/Backend/*
+/engine/Shopware/Plugins/Community/Core/*
+/engine/Shopware/Plugins/Community/Frontend/*
+/engine/Shopware/Plugins/Local/Backend/*
+/engine/Shopware/Plugins/Local/Core/*
+/engine/Shopware/Plugins/Local/Frontend/*
+
+/custom/plugins/*
+
+# User provided content
+/media/archive/*
+/media/image/*
+!/media/image/thumbnail
+/media/image/thumbnail/*
+/media/music/*
+/media/pdf/*
+/media/temp/*
+!/media/temp/.htaccess
+/media/unknown/*
+/media/video/*
+/media/vector/*
