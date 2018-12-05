@@ -26,16 +26,3 @@
 /engine/Shopware/Plugins/Local/Frontend/*
 
 /custom/plugins/*
-
-# User provided content
-/media/archive/*
-/media/image/*
-!/media/image/thumbnail
-/media/image/thumbnail/*
-/media/music/*
-/media/pdf/*
-/media/temp/*
-!/media/temp/.htaccess
-/media/unknown/*
-/media/video/*
-/media/vector/*
